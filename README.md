@@ -23,6 +23,10 @@ The allocator implements both these algorithms. Can be toggled using a boolean.
 
 Note: Another criterion which is extremely important for allocation of memory is that the free blocks that are contiguous should be merged into one larger free block. So a defragmentor is required. It checks for free blocks that are next to each other and combines them into larger free blocks. Running a defragmentor periodically reduces the fragmentation of memory and avoids space wastage.
 
+<p align="center">
+  <img src="img/fragmented.png" width="500"/>
+</p>
+
 # Approach and Features
 
 First the allocator uses a doubly-linked-list as its main data structure for implementing the dictionary. It is highly optimised using Binary Search Tree and later AVL Tree.
