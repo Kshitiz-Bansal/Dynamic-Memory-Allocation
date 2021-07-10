@@ -39,6 +39,7 @@ The following functions are implemented with all the above variants:
 
 | Data Structure | Linked-List | BSTree | AVL Tree |
 <!-- | Operation | ------------- | -->
+| ----- | ------ | ------ | ------ |
 | Insert  | O(1) | O(h) = O(n) | O(h) = O(logN) |
 | Delete  | O(n) | O(h) = O(n) | O(h) = O(logN) |
 | Find  | O(n) | O(h) = O(n) | O(h) = O(logN) |
