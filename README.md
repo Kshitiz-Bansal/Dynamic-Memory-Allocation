@@ -1,6 +1,7 @@
 # Dynamic Memory Allocation using LinkedLists and Trees
 
-This is a java-based Dynamic memory allocator, capable of undertaking all the tasks of an actual memory allocator. Course project: COL106 (Data Structures & Algorithms) | Fall 2020
+This is a java-based Dynamic memory allocator, capable of undertaking all the tasks of an actual memory allocator.
+Course Project | COL106: Data Structures & Algorithms | Prof. Rahul Garg, Prof. Rijurekha Sen | Fall 2020-21.
 
 ## Introduction
 
@@ -21,7 +22,8 @@ The allocator has to decide on which block to give when asked for by a program. 
 
 The allocator implements both these algorithms. Can be toggled using a boolean.
 
-Note: Another criterion which is extremely important for allocation of memory is that the free blocks that are contiguous should be merged into one larger free block. So a defragmentor is required. It checks for free blocks that are next to each other and combines them into larger free blocks. Running a defragmentor periodically reduces the fragmentation of memory and avoids space wastage.
+Note: Another criterion which is extremely important for allocation of memory is that the free blocks that are contiguous should be merged into one larger free block. So a defragmentor is required. It checks for free blocks that are next to each other and combines them into larger free blocks. Running a defragmentor periodically reduces the fragmentation of memory and avoids space wastage.
+
 
 <p align="center">
   <img src="img/fragmented.png" width="500"/>
