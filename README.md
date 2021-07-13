@@ -1,6 +1,7 @@
 # Dynamic Memory Allocation using LinkedLists and Trees
 
 This is a java-based Dynamic memory allocator, capable of undertaking all the tasks of an actual memory allocator.
+
 Course Project | COL106: Data Structures & Algorithms | Prof. Rahul Garg, Prof. Rijurekha Sen | Fall 2020-21.
 
 ## Introduction
